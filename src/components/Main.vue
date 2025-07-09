@@ -40,8 +40,7 @@
             }
         },
         async mounted(){
-            console.log("mounted")
-            this.item ={name: "judas"}
+            console.log("mounted",this.name)
             // this.fazerLogin()
         },
         created(){
